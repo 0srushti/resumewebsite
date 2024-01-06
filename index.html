@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">My Services</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#Contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero-container">
+        <div class="info-side">
+            <h3 class="part-1">Hello, It's Me</h3>
+            <h1>SRUSHTI N</h1>
+            <h3 class="part-2">And I am a <span id="changing-text">Fornt-end Developer</span></h3>
+            <p>
+                You can hire me as per your need always into helping other!
+            </p>
+
+            <a href="#"><i class="uil uil-facebook-f" slyle="--i:7"></i></a>
+            <a href="#"><i class="uil uil-twitter" slyle="--i:8"></i></a>
+            <a href="#"><i class="uil uil-instagram" slyle="--i:9"></i></a>
+            <a href="#"><i class="uil uil-linkedin" slyle="--i:10"></i></a>
+            <br />
+            <button class="btn">Download CV</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="SRUSHTI N.jpg" alt="My Pic" />
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="SRUSHTI N.jpg" alt="my pic" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Front-end Developer</h3>
+            <p>I am a front-end developer with skill of HTML,CSS and JavaScript. Always ready make any website for you.</p>
+            <button>Read More</button>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My<span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="uil uil-brackets-curly"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Any type website can be develop here.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My<span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="uil uil-brush-alt"></i>
+                <h3>Graphic Designer</h3>
+                <p>
+                    Any type graphic desgin can be made here.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading" id="portportfolioHeading">My<span>Projects</span></h2>
+        <div class="portfolio-container">
+           <div class="portfolio-box">
+              <img src="pic 1.jpg" alt="MyProjects"/>
+                <div class="portfolio-layer">
+                 <h4>Web Design</h4>
+                 <p>
+
+                 </p>
+                 <a href=""></a><i class="uis uis-link-h"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pic 2.jpg" alt="MyProjects"/>
+                  <div class="portfolio-layer">
+                   <h4>Web Design</h4>
+                   <p>
+  
+                   </p>
+                   <a href=""></a><i class="uis uis-link-h"></i></a>
+                  </div>
+              </div>
+            
+              <div class="portfolio-box">
+                <img src="pic 3.jpg" alt="MyProjects"/>
+                  <div class="portfolio-layer">
+                   <h4>Web Design</h4>
+                   <p>
+  
+                   </p>
+                   <a href=""></a><i class="uis uis-link-h"></i></a>
+                  </div>
+              </div>
+
+              <div class="portfolio-box">
+                <img src="pic 4.jpg" alt="MyProjects"/>
+                  <div class="portfolio-layer">
+                   <h4>Web Design</h4>
+                   <p>
+  
+                   </p>
+                   <a href=""></a><i class="uis uis-link-h"></i></a>
+                  </div>
+              </div>
+
+              <div class="portfolio-box">
+                <img src="pic 5.jpg" alt="MyProjects"/>
+                  <div class="portfolio-layer">
+                   <h4>Web Design</h4>
+                   <p>
+  
+                   </p>
+                   <a href=""></a><i class="uis uis-link-h"></i></a>
+                  </div>
+              </div>
+
+              <div class="portfolio-box">
+                <img src="pic 6.jpg" alt="MyProjects"/>
+                  <div class="portfolio-layer">
+                   <h4>Web Design</h4>
+                   <p>
+  
+                   </p>
+                   <a href=""></a><i class="uis uis-link-h"></i></a>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<section class="contact" id="contact">
+    <h1>Contact Me</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button>Submit</button>
+    </form>
+</section>
